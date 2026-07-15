@@ -1,0 +1,28 @@
+# API keys — never commit
+.env
+
+# Scan outputs
+results/
+sessions/
+
+# Logs
+*.log
+whoxy_balance_log.jsonl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Generated reports (regenerate from source)
+*.docx
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
